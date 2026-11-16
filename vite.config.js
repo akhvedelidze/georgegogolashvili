@@ -20,7 +20,7 @@ function htmlInputs(dir = root, acc = {}) {
 export default defineConfig(async () => {
   await generate();
   return {
-    base: "/georgegogolashvili/",
+    base: "/",
     plugins: [
       {
         name: "editorial-content",

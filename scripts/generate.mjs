@@ -29,23 +29,18 @@ const esc = (value) =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
 
-const BASE_PATH = "/georgegogolashvili";
-
 function sitePath(urlPath = "/") {
   if (/^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(urlPath)) return urlPath;
-  const normalized = urlPath.startsWith("/") ? urlPath : `/${urlPath}`;
-  if (normalized === BASE_PATH || normalized.startsWith(`${BASE_PATH}/`)) return normalized;
-  return normalized === "/" ? `${BASE_PATH}/` : `${BASE_PATH}${normalized}`;
+  return urlPath.startsWith("/") ? urlPath : `/${urlPath}`;
 }
 
 const hrefPath = (lang, slug = "") => sitePath(slug ? `/${lang}/${slug}/` : `/${lang}/`);
 
 const absolute = (urlPath) => {
-  const path = sitePath(urlPath);
+  const route = sitePath(urlPath);
   const configured = (site.siteUrl || "").replace(/\/$/, "");
-  if (!configured) return path;
-  if (configured.endsWith(BASE_PATH)) return `${configured}${path.slice(BASE_PATH.length)}`;
-  return `${configured}${path}`;
+  if (!configured) return route;
+  return `${configured}${route}`;
 };
 
 const paras = (list = []) => list.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n");
@@ -562,6 +557,7 @@ function gatePage() {
       <p lang="ka">ქართული მხატვრული ტრადიცია თანამედროვე მონუმენტურ ხელოვნებაში</p>
       <nav class="gate-links" aria-label="Language">
         <a href="${hrefPath("ka")}" lang="ka" hreflang="ka">GE</a>
+        <span aria-hidden="true">/</span>
         <a href="${hrefPath("en")}" lang="en" hreflang="en">EN</a>
       </nav>
     </div>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://akhvedelidze.github.io/georgegogolashvili/sitemap.xml
+Sitemap: https://georgegogolashvili.com/sitemap.xml
