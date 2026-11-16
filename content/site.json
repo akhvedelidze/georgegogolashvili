@@ -1,0 +1,13 @@
+{
+  "siteUrl": "",
+  "phone": "(917) 612-9945",
+  "phoneHref": "tel:+19176129945",
+  "email": "giorgiodimaestro@gmail.com",
+  "heroImage": "img-arch-installed",
+  "featuredProject": "cathedral",
+  "selected": [
+    { "id": "archangels", "image": "img-arch-staff" },
+    { "id": "mystical-supper", "image": "img-supper-full" },
+    { "id": "ascension", "image": "img-asc-upper" }
+  ]
+}

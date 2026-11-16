@@ -1,0 +1,474 @@
+[
+  {
+    "id": "img-arch-installed",
+    "filename": "George_gog (25).jpg",
+    "projectId": "archangels",
+    "category": "sacred-art",
+    "usage": "hero",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "მთავარანგელოზები და ანგელოზთა დასი საკურთხევლის სივრცეში, ღვთისმშობლის საფარველის საკათედრო ტაძარი, ნიუ-იორკი.",
+      "en": "Archangels and the Angelic Hosts in the sanctuary of the Cathedral of the Holy Virgin Protection, New York."
+    },
+    "alt": {
+      "ka": "საკურთხევლის კედელზე, ვარსკვლავებიან ლურჯ ფონზე, გამოსახული არიან მთავარანგელოზები და ანგელოზები. ქვემოთ ჩანს იოანე ნათლისმცემლის ხატი.",
+      "en": "Archangels and angels painted on a starry blue sanctuary wall. An icon of St John the Baptist is visible below the mural."
+    }
+  },
+  {
+    "id": "img-arch-staff",
+    "filename": "George_gog (24).jpg",
+    "projectId": "archangels",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "მთავარანგელოზთა კომპოზიციის დეტალი. კადრის კიდეში ჩანს სამუშაო ხარაჩო.",
+      "en": "Detail of the archangel composition, with working scaffolding at the edge of the frame."
+    },
+    "alt": {
+      "ka": "ანგელოზთა ჯგუფი ოქროს შარავანდებით. წინ ვარდისფერ სამოსში გამოწყობილ ანგელოზს კვერთხი და ჯვრიანი სფერო უჭირავს, გვერდით ცისფერ სამოსში გამოწყობილი ანგელოზი დგას.",
+      "en": "A group of haloed angels. An angel in rose robes holds a staff and an orb marked with a cross, beside an angel in blue robes."
+    }
+  },
+  {
+    "id": "img-arch-blue",
+    "filename": "George_gog (23).jpg",
+    "projectId": "archangels",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "ანგელოზთა დასის დეტალი. წინა პლანზე ხარაჩოა.",
+      "en": "Detail of the angelic hosts, with scaffolding in the foreground."
+    },
+    "alt": {
+      "ka": "ლურჯ და მწვანე სამოსში გამოწყობილი ანგელოზები ოქროს ფრთებითა და შარავანდებით. წინ ხის ხარაჩო დგას.",
+      "en": "Angels in blue and green robes with gold wings and halos. A wooden scaffold stands in the foreground."
+    }
+  },
+  {
+    "id": "img-supper-full",
+    "filename": "George_gog (21).jpg",
+    "turn": 270,
+    "projectId": "mystical-supper",
+    "category": "sacred-art",
+    "usage": "featured-work",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "„საიდუმლო სერობა“. ფოტო კომპოზიციის დაბეჭდილ გამოსახულებას ასახავს.",
+      "en": "The Mystical Supper. The photograph records a printed image of the composition."
+    },
+    "alt": {
+      "ka": "„საიდუმლო სერობის“ დაბეჭდილი ფოტო: ოვალური სუფრა, ქრისტე და მოციქულები, ჭურჭელი და პური. კადრის მარჯვენა კიდეში მხატვარია, რადგან გადაღებულია დაბეჭდილი სურათი.",
+      "en": "A printed photograph of The Mystical Supper: an oval table, Christ and the apostles, vessels and bread. The artist stands at the right edge because the picture records a printed photograph."
+    }
+  },
+  {
+    "id": "img-supper-detail",
+    "filename": "George_gog (19).jpg",
+    "turn": 270,
+    "projectId": "mystical-supper",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "„საიდუმლო სერობის“ დეტალი, დაბეჭდილი ფოტოს კადრი.",
+      "en": "Detail of The Mystical Supper, photographed from a print."
+    },
+    "alt": {
+      "ka": "„საიდუმლო სერობის“ ფრაგმენტი: ჭურჭელი, პურის ნატეხები და მოციქულთა ხელები. მარჯვნივ ჩანს მხატვარი.",
+      "en": "A detail of The Mystical Supper showing vessels, pieces of bread, and the apostles' hands. The artist is visible at the right edge."
+    }
+  },
+  {
+    "id": "img-asc-upper",
+    "filename": "George_gog (5).jpg",
+    "projectId": "ascension",
+    "category": "sacred-art",
+    "usage": "featured-work",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "„ამაღლება“ — კომპოზიციის ზედა და ცენტრალური ნაწილი.",
+      "en": "The Ascension — the upper and central part of the composition."
+    },
+    "alt": {
+      "ka": "„ამაღლების“ კომპოზიცია: ზემოთ, ლურჯ ფონზე, ამაღლებული ქრისტეა, ქვემოთ კი ღვთისმშობელი და ზეცისკენ მიმართული მოციქულები.",
+      "en": "The Ascension: Christ above against a blue ground, and below the Virgin and apostles looking upward."
+    }
+  },
+  {
+    "id": "img-asc-wide",
+    "filename": "George_gog (3).jpg",
+    "projectId": "ascension",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "„ამაღლება“. ქვედა არეში ჩანს ჯერ დაუმუშავებელი ზედაპირი.",
+      "en": "The Ascension, with an unfinished ground visible in the lower area."
+    },
+    "alt": {
+      "ka": "„ამაღლების“ ფართო ხედი: ღვთისმშობელი ცენტრში, გარშემო მოციქულები. ქვედა არე დაუმუშავებელ ოქროსფერ ზედაპირს აჩვენებს.",
+      "en": "A wide view of The Ascension, with the Virgin at the center and apostles around her. The lower area still shows an unfinished golden ground."
+    }
+  },
+  {
+    "id": "img-asc-virgin",
+    "filename": "George_gog (4).jpg",
+    "projectId": "ascension",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "ღვთისმშობლის გამოსახულება „ამაღლების“ კომპოზიციაში.",
+      "en": "The Virgin in the Ascension composition."
+    },
+    "alt": {
+      "ka": "ახლო ხედი: ღვთისმშობელი წითელ მანტიასა და ლურჯ კვართში, ოქროს შარავანდით, გვერდით მოციქულები.",
+      "en": "Close view of the Virgin in a red mantle and blue robe, with a gold halo, beside apostles."
+    }
+  },
+  {
+    "id": "img-asc-apostles",
+    "filename": "George_gog (8).jpg",
+    "projectId": "ascension",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "მოციქულთა ჯგუფი „ამაღლებიდან“.",
+      "en": "A group of apostles from The Ascension."
+    },
+    "alt": {
+      "ka": "მოციქულები ღია ყვითელ, აგურისფერ და მწვანე სამოსში, ღვთისმშობლის გვერდით.",
+      "en": "Apostles in pale yellow, terracotta, and green robes beside the Virgin."
+    }
+  },
+  {
+    "id": "img-asc-group",
+    "filename": "George_gog (9).jpg",
+    "projectId": "ascension",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "„ამაღლების“ ფიგურათა დეტალი.",
+      "en": "Figure detail from The Ascension."
+    },
+    "alt": {
+      "ka": "წვეროსანი მოციქულები ყვითელ, აგურისფერ, ლურჯ და მწვანე სამოსში. ზემოთ თეთრი კლდის ფორმები ჩანს.",
+      "en": "Bearded apostles in yellow, terracotta, blue, and green robes, with white rock forms above them."
+    }
+  },
+  {
+    "id": "img-nat-wall",
+    "filename": "George_gog (12).jpg",
+    "projectId": "nativity",
+    "category": "sacred-art",
+    "usage": "project-gallery",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "„შობის“ კომპოზიცია მუშაობის პროცესში.",
+      "en": "The Nativity composition while work was in progress."
+    },
+    "alt": {
+      "ka": "შობის კომპოზიციის წინ დგანან სასულიერო პირი შავ სამოსში და გია გოგოლაშვილი. მოხატულობაზე ჩანს ღვთისმშობელი, ყრმა, მწყემსი და ანგელოზი. მარჯვნივ კედელზე ჯერ მხოლოდ კონტურია.",
+      "en": "A cleric in black vestments and George Klapsa Gogolashvili stand before a Nativity composition showing the Virgin, the child, a shepherd, and an angel. To the right, the wall still shows only an outline."
+    }
+  },
+  {
+    "id": "img-nat-drawing",
+    "filename": "George_gog (27).jpg",
+    "projectId": "nativity",
+    "category": "studio",
+    "usage": "artistic-approach",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "„შობის“ მოსამზადებელი ნახაზი.",
+      "en": "Preparatory drawing for The Nativity."
+    },
+    "alt": {
+      "ka": "ფანქრით შესრულებული ნახაზი: ღვთისმშობელი დახრილია ბაგისკენ, სადაც ყრმა ძევს; გვერდით ცხოველია.",
+      "en": "A pencil drawing of the Virgin leaning toward a manger where the child lies, with an animal beside the manger."
+    }
+  },
+  {
+    "id": "img-portrait-stair",
+    "filename": "George_gog (6).JPG",
+    "projectId": "artist",
+    "category": "portrait",
+    "usage": "about",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "გია გოგოლაშვილი.",
+      "en": "George Klapsa Gogolashvili."
+    },
+    "alt": {
+      "ka": "გია გოგოლაშვილი კიბეზე დგას, საღებავით შეღებილ პერანგსა და კეპში.",
+      "en": "George Klapsa Gogolashvili standing on a staircase, wearing a paint-stained shirt and a cap."
+    }
+  },
+  {
+    "id": "img-portrait-studio",
+    "filename": "George_gog (13).jpg",
+    "projectId": "artist",
+    "category": "studio",
+    "usage": "about",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "სახელოსნოში.",
+      "en": "In the studio."
+    },
+    "alt": {
+      "ka": "გია გოგოლაშვილი სახელოსნოში, მოლბერტებს შორის.",
+      "en": "George Klapsa Gogolashvili in a studio, among easels."
+    }
+  },
+  {
+    "id": "img-certificate",
+    "filename": "George_gog (14).jpg",
+    "projectId": "archangels",
+    "category": "press",
+    "usage": "about-press",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "ამერიკის მართლმადიდებელი ეკლესიის აღიარების სიგელი, 2019 წლის 13 ოქტომბერი.",
+      "en": "Certificate of recognition from the Orthodox Church in America, October 13, 2019."
+    },
+    "alt": {
+      "ka": "აღიარების სიგელი გია გოგოლაშვილის სახელზე, მთავარანგელოზთა მოხატულობის შექმნისა და დამონტაჟებისთვის, ხელმოწერილი არქიმანდრიტ კრისტოფერის მიერ.",
+      "en": "A certificate of recognition in the name of George Gogolashvili for the creation and installation of the archangel murals, signed by Archimandrite Christopher."
+    }
+  },
+  {
+    "id": "img-pigments",
+    "filename": "George_gog (7).jpg",
+    "projectId": "artist-process",
+    "category": "studio",
+    "usage": "artistic-approach",
+    "publish": true,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "caption": {
+      "ka": "სამუშაო პიგმენტები.",
+      "en": "Working pigments."
+    },
+    "alt": {
+      "ka": "ლითონის მაგიდაზე დალაგებული საღებავის ტუბები, ყვითელი პიგმენტის ბოთლი და პატარა ქილები.",
+      "en": "Tubes of paint, a bottle of yellow pigment, and small jars arranged on a metal table."
+    }
+  },
+  {
+    "id": "withheld-01",
+    "filename": "George_gog (1).jpg",
+    "projectId": "",
+    "category": "personal",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "Two people in a studio. The second person is not identified in the editorial record.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-02",
+    "filename": "George_gog (1).jpeg",
+    "projectId": "",
+    "category": "personal",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "Phone screenshot of a social photograph with an unidentified person.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-03",
+    "filename": "George_gog (1).png",
+    "projectId": "",
+    "category": "personal",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "Unrelated personal photograph. Not an artwork.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-04",
+    "filename": "George_gog (1).HEIC",
+    "projectId": "",
+    "category": "unreviewed",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "HEIC original. Not reviewed and not used for web delivery.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-05",
+    "filename": "George_gog (2).jpg",
+    "projectId": "",
+    "category": "personal",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "Personal cake. Not an artwork.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-06",
+    "filename": "George_gog (10).jpg",
+    "projectId": "artist",
+    "category": "portrait",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "Portrait in a studio whose wall paintings are not identified as Gogolashvili's work.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-07",
+    "filename": "George_gog (11).jpg",
+    "projectId": "artist",
+    "category": "portrait",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "Portrait in a studio whose wall paintings are not identified as Gogolashvili's work.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-08",
+    "filename": "George_gog (15).jpg",
+    "projectId": "",
+    "category": "reference",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "restricted",
+    "credit": "",
+    "note": "Screenshot of a Metropolitan Museum of Art collection page. Not the artist's work.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-09",
+    "filename": "George_gog (16).jpg",
+    "projectId": "",
+    "category": "press",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "restricted",
+    "credit": "",
+    "note": "Photograph of a printed magazine page. The article is linked, not reproduced.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-10",
+    "filename": "George_gog (17).jpg",
+    "projectId": "",
+    "category": "press",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "restricted",
+    "credit": "",
+    "note": "Photograph of a printed magazine page. The article is linked, not reproduced.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-11",
+    "filename": "George_gog (18).jpg",
+    "projectId": "",
+    "category": "press",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "restricted",
+    "credit": "",
+    "note": "Photograph of a printed magazine page. The article is linked, not reproduced.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-12",
+    "filename": "George_gog (20).jpg",
+    "projectId": "mystical-supper",
+    "category": "sacred-art",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "supplied",
+    "credit": "",
+    "note": "A more obstructed photograph of the same printed Mystical Supper image. The clearer frames are published.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-13",
+    "filename": "George_gog (22).jpg",
+    "projectId": "",
+    "category": "reference",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "restricted",
+    "credit": "",
+    "note": "Photograph of a book cover about Damiane. Reference material, not an artwork by Gogolashvili.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  },
+  {
+    "id": "withheld-14",
+    "filename": "George_gog (26).jpg",
+    "projectId": "",
+    "category": "personal",
+    "usage": "withheld",
+    "publish": false,
+    "rightsStatus": "withheld",
+    "credit": "",
+    "note": "Social photograph with unidentified people.",
+    "caption": { "ka": "", "en": "" },
+    "alt": { "ka": "", "en": "" }
+  }
+]

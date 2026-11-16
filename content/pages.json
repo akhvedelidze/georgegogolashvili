@@ -1,0 +1,376 @@
+{
+  "home": {
+    "seo": {
+      "ka": {
+        "title": "გია გოგოლაშვილი — მხატვარი-მონუმენტალისტი",
+        "description": "გაეცანით ქართველი მხატვარი-მონუმენტალისტის, გია გოგოლაშვილის, შემოქმედებას, საეკლესიო მოხატულობასა და ნიუ-იორკში განხორციელებულ პროექტებს."
+      },
+      "en": {
+        "title": "George Klapsa Gogolashvili — Monumental Artist",
+        "description": "Explore the monumental paintings, sacred murals, and artistic practice of Georgian artist George Klapsa Gogolashvili, based in New York."
+      }
+    },
+    "ka": {
+      "eyebrow": "მხატვარი-მონუმენტალისტი",
+      "title": "გია გოგოლაშვილი",
+      "subtitle": "ქართული მხატვრული ტრადიცია თანამედროვე მონუმენტურ ხელოვნებაში",
+      "intro": [
+        "გია გოგოლაშვილი ქართველი მხატვარი-მონუმენტალისტია, რომლის შემოქმედება აერთიანებს ქართული ფრესკული მხატვრობის მრავალსაუკუნოვან მემკვიდრეობას, პროფესიულ გამოცდილებასა და თანამედროვე არქიტექტურულ სივრცესთან მუშაობის კულტურას.",
+        "თბილისში მიღებული სამხატვრო განათლების შემდეგ მისი პროფესიული გზა ნიუ-იორკში გაგრძელდა, სადაც განსაკუთრებით გამოიკვეთა საეკლესიო მონუმენტური მხატვრობის მიმართულება. მის მნიშვნელოვან ნამუშევრებს შორისაა მანჰეტენის ღვთისმშობლის საფარველის საკათედრო ტაძარში შესრულებული ფრესკული კომპოზიციები."
+      ],
+      "featuredHeading": "მხატვრობა, რომელიც სივრცესა და ისტორიას აერთიანებს",
+      "featuredIntro": "თითოეული მონუმენტური კომპოზიცია დაკავშირებულია კონკრეტულ არქიტექტურულ გარემოსთან, ისტორიულ წყაროებთან და მხატვრულ ამოცანასთან. გაეცანით გია გოგოლაშვილის შემოქმედების მნიშვნელოვან პროექტებსა და მათი შექმნის ისტორიას.",
+      "areas": [
+        {
+          "title": "საეკლესიო მონუმენტური მხატვრობა",
+          "text": "ტრადიციული ქრისტიანული იკონოგრაფიის გააზრება და კომპოზიციების შექმნა ტაძრის არქიტექტურულ სივრცეში."
+        },
+        {
+          "title": "მონუმენტური და დეკორატიული ხელოვნება",
+          "text": "კედლის ფერწერის, სივრცობრივი კომპოზიციისა და არქიტექტურული დეკორის ურთიერთკავშირი."
+        },
+        {
+          "title": "ისტორიული მხატვრობის კვლევა და აღდგენის პრაქტიკა",
+          "text": "ძველი ოსტატების ტექნოლოგიების შესწავლა, ისტორიულ მხატვრულ ნიმუშებთან მუშაობა და ტრადიციული მეთოდების გამოყენება."
+        }
+      ],
+      "aboutHeading": "თბილისიდან ნიუ-იორკამდე",
+      "aboutTeaser": "გია გოგოლაშვილი დაიბადა და გაიზარდა თბილისში, ვაკეში. მისი პროფესიული ჩამოყალიბება საქართველოს მდიდარ სახელოვნებო ტრადიციას, თეატრალურ გარემოსა და მონუმენტური მხატვრობის აკადემიურ სკოლას უკავშირდება.",
+      "closing": "გია გოგოლაშვილის შემოქმედებაში ქართული მხატვრული მემკვიდრეობა არა მხოლოდ შთაგონების წყაროა, არამედ ცოცხალი პროფესიული გამოცდილება, რომელიც ახალ კულტურულ გარემოში განაგრძობს განვითარებას."
+    },
+    "en": {
+      "eyebrow": "Monumental Artist",
+      "title": "George Klapsa Gogolashvili",
+      "subtitle": "Georgian Artistic Heritage in Contemporary Monumental Painting",
+      "intro": [
+        "George Klapsa Gogolashvili is a Georgian monumental artist whose practice brings together the traditions of Georgian ecclesiastical painting, academic training, and the expressive possibilities of architectural space.",
+        "Educated in Tbilisi and professionally established in New York, Gogolashvili has developed a body of work that reflects a sustained engagement with historical painting techniques, sacred iconography, and large-scale decorative composition.",
+        "Among his most significant documented projects are the monumental paintings created for the Cathedral of the Holy Virgin Protection in Manhattan, where elements of Georgia's medieval artistic heritage find expression within an American Orthodox setting."
+      ],
+      "featuredHeading": "Where Artistic Heritage Meets Architectural Space",
+      "featuredIntro": "Explore selected works and discover the historical references, artistic methods, and architectural settings that inform Gogolashvili's monumental compositions.",
+      "areas": [
+        {
+          "title": "Sacred and Ecclesiastical Painting",
+          "text": "Monumental compositions informed by Christian iconography, historical sources, and the architectural character of sacred spaces."
+        },
+        {
+          "title": "Monumental and Decorative Art",
+          "text": "An approach that brings painting, spatial composition, and architectural decoration into dialogue."
+        },
+        {
+          "title": "Historical Techniques and Restoration Practice",
+          "text": "An ongoing interest in traditional artistic methods, historical painting, and the study of earlier masters."
+        }
+      ],
+      "aboutHeading": "From Tbilisi to New York",
+      "aboutTeaser": "Born and raised in the Vake district of Tbilisi, Georgia, George Klapsa Gogolashvili developed his artistic identity within a cultural environment shaped by painting, theatre, and the traditions of monumental art.",
+      "closing": "For Gogolashvili, artistic heritage is not simply a reference to the past. It is a living source of knowledge, technique, and creative exploration."
+    }
+  },
+  "about": {
+    "seo": {
+      "ka": {
+        "title": "გია გოგოლაშვილი — ბიოგრაფია და შემოქმედება",
+        "description": "გია გოგოლაშვილის გზა თბილისიდან ნიუ-იორკამდე: სამხატვრო აკადემია, თეატრი და მანჰეტენის საკათედრო ტაძრის მოხატულობა."
+      },
+      "en": {
+        "title": "About George Klapsa Gogolashvili",
+        "description": "From Tbilisi to New York: the training, theatrical experience, and cathedral paintings of George Klapsa Gogolashvili."
+      }
+    },
+    "ka": {
+      "eyebrow": "ხელოვანის შესახებ",
+      "title": "თბილისიდან ნიუ-იორკამდე",
+      "sections": [
+        {
+          "paragraphs": [
+            "გია გოგოლაშვილი დაიბადა და გაიზარდა თბილისში, ვაკეში. მისი პროფესიული ჩამოყალიბება საქართველოს მდიდარ სახელოვნებო ტრადიციას, თეატრალურ გარემოსა და მონუმენტური მხატვრობის აკადემიურ სკოლას უკავშირდება.",
+            "მხატვრობისადმი ინტერესი ადრეული ასაკიდან ჩამოუყალიბდა. საკუთარი მოგონებების მიხედვით, მის შემოქმედებით განვითარებაზე მნიშვნელოვანი გავლენა იქონიეს ფერმწერმა ზაურ გოლავამ და მხატვარმა მურაზ მურვანიძემ. თეატრალური ხელოვნების სფეროში მუშაობისას იგი გაეცნო სცენოგრაფიას, მასშტაბურ დეკორატიულ კომპოზიციებსა და სივრცის მხატვრული ორგანიზების პრინციპებს.",
+            "გოგოლაშვილი მუშაობდა მუსიკალური კომედიის თეატრში, ოპერის თეატრსა და რეზო გაბრიაძის მარიონეტების თეატრთან დაკავშირებულ შემოქმედებით გარემოში. მოგვიანებით დაამთავრა თბილისის სახელმწიფო სამხატვრო აკადემია, მონუმენტური კედლის მხატვრობის სპეციალობით.",
+            "1993 წელს იგი ამერიკის შეერთებულ შტატებში გადავიდა საცხოვრებლად. ნიუ-იორკში მისი პროფესიული საქმიანობა თავდაპირველად არქიტექტურულ და დეკორატიულ პროექტებს უკავშირდებოდა. მუშაობდა ინტერიერის მხატვრულ გადაწყვეტებზე, სივრცობრივ კომპოზიციებსა და დეკორატიულ ელემენტებზე.",
+            "ამ გამოცდილებამ კიდევ უფრო გააღრმავა მისი ინტერესი მხატვრობასა და არქიტექტურას შორის ურთიერთობის მიმართ."
+          ]
+        },
+        {
+          "heading": "ქართული მხატვრობა მანჰეტენის ტაძარში",
+          "paragraphs": [
+            "გია გოგოლაშვილის შემოქმედებაში გამორჩეული ადგილი უკავია მანჰეტენზე, აღმოსავლეთ მეორე ქუჩაზე მდებარე ღვთისმშობლის საფარველის მართლმადიდებლურ საკათედრო ტაძარს.",
+            "ტაძართან მისი შემოქმედებითი ურთიერთობა ისტორიული ხატის აღდგენის სამუშაოთი დაიწყო. მოგვიანებით მხატვარმა ტაძრის სივრცისთვის შექმნა „საიდუმლო სერობის“ მონუმენტური კომპოზიცია, რომლის მხატვრული წყაროების ძიებისას განსაკუთრებული ყურადღება დაუთმო უბისის მონასტრის შუა საუკუნეების ფრესკებს.",
+            "შემდგომ ეტაპზე მან საკურთხევლის სივრცეში მთავარანგელოზთა და ანგელოზთა დასის კომპოზიციები შეასრულა. 2022 წლის ინტერვიუში ეს სამუშაო 2018 წელს დასრულებულად არის მოხსენიებული. 2019 წლის 13 ოქტომბრის აღიარების სიგელი კი ამ მოხატულობის შექმნასა და დამონტაჟებას ეხება.",
+            "აღნიშნული ნამუშევრები ქართული საეკლესიო მხატვრობის ისტორიული გამოცდილებისა და ამერიკული მართლმადიდებლური ტაძრის არქიტექტურული სივრცის საინტერესო შეხვედრას წარმოადგენს."
+          ]
+        },
+        {
+          "heading": "ხელოვნება როგორც კვლევა და პრაქტიკა",
+          "paragraphs": [
+            "გია გოგოლაშვილის პროფესიული მიდგომისთვის მნიშვნელოვანია ისტორიული წყაროების შესწავლა, კომპოზიციის წინასწარი გააზრება და კედელზე უშუალო მუშაობა.",
+            "მისი შემოქმედებითი პრაქტიკა ეფუძნება მონუმენტური მხატვრობის აკადემიურ გამოცდილებასა და ძველი ფრესკული ტექნოლოგიებისადმი ინტერესს. როგორც მხატვარი ინტერვიუში აღნიშნავს, იგი განსაკუთრებულ მნიშვნელობას ანიჭებს კომპოზიციის ნახშირით კედელზე გადატანას, ფერთა სიმბოლურ დატვირთვასა და გამოსახულების სულიერ შინაარსს.",
+            "ამგვარად, მისი ხელოვნება აერთიანებს პროფესიულ ოსტატობას, ისტორიული მხატვრობის კვლევასა და პირად შემოქმედებით ძიებას."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "eyebrow": "The Artist",
+      "title": "From Tbilisi to New York",
+      "sections": [
+        {
+          "paragraphs": [
+            "Born and raised in the Vake district of Tbilisi, Georgia, George Klapsa Gogolashvili developed his artistic identity within a cultural environment shaped by painting, theatre, and the traditions of monumental art.",
+            "His early professional experiences included work in theatrical settings, where he encountered the demands of scenography, large-scale decorative painting, and the visual organization of space. In a published interview, Gogolashvili identified painters Zaur Golava and Muraz Murvanidze as important influences on his artistic development.",
+            "He worked in environments associated with Tbilisi's Musical Comedy Theatre, the Opera Theatre, and Rezo Gabriadze's Marionette Theatre before completing his studies at the Tbilisi State Academy of Arts, specializing in monumental wall painting.",
+            "In 1993, Gogolashvili moved to the United States, where his professional practice expanded into architectural and decorative projects in New York. His work involved interior compositions, ornamental elements, and the integration of visual art into architectural environments.",
+            "These experiences reinforced a central concern of his artistic practice: the relationship between painted imagery and the space it inhabits."
+          ]
+        },
+        {
+          "heading": "Georgian Sacred Art in Manhattan",
+          "paragraphs": [
+            "A defining chapter in Gogolashvili's documented career is his work at the Cathedral of the Holy Virgin Protection on East Second Street in Manhattan.",
+            "His involvement with the cathedral began with the restoration of a historical icon and developed into an extensive engagement with sacred wall painting.",
+            "For the cathedral's Mystical Supper composition, Gogolashvili explored medieval Georgian painting, particularly the fresco tradition associated with the fourteenth-century master Damiane at the Ubisi Monastery.",
+            "He subsequently painted archangels and angelic hosts for the sanctuary. In a 2022 interview he described that work as completed in 2018. A certificate of recognition dated October 13, 2019 records the creation and installation of those murals.",
+            "These works provide an example of how historical Georgian visual traditions can be interpreted within a different architectural and cultural context."
+          ]
+        },
+        {
+          "heading": "An Artistic Practice Grounded in Research",
+          "paragraphs": [
+            "Gogolashvili's approach combines academic training, direct engagement with historical sources, and traditional methods of working on architectural surfaces.",
+            "In describing his process, he emphasizes the importance of preparatory drawing, transferring compositions to walls by hand, and considering the symbolic role of color and expression in ecclesiastical imagery.",
+            "His work reflects an ongoing conversation between artistic inheritance and contemporary practice, bringing together the disciplines of painting, decorative composition, and architectural design."
+          ]
+        }
+      ]
+    }
+  },
+  "works": {
+    "seo": {
+      "ka": {
+        "title": "ნამუშევრები და მოხატულობა — გია გოგოლაშვილი",
+        "description": "გია გოგოლაშვილის საეკლესიო და მონუმენტური მხატვრობის მნიშვნელოვანი ნამუშევრები, მათი ისტორია, მხატვრული წყაროები და კომპოზიციები."
+      },
+      "en": {
+        "title": "Selected Works and Sacred Murals — Gogolashvili",
+        "description": "Discover selected sacred murals and monumental works by George Klapsa Gogolashvili, including his paintings at a historic Manhattan cathedral."
+      }
+    },
+    "ka": {
+      "eyebrow": "ნამუშევრები",
+      "title": "შერჩეული ნამუშევრები და პროექტები",
+      "intro": [
+        "გია გოგოლაშვილის შემოქმედებითი საქმიანობა მოიცავს მონუმენტურ და დეკორატიულ მხატვრობას, საეკლესიო ფერწერას და ისტორიულ მხატვრულ ნიმუშებთან მუშაობას.",
+        "ამ განყოფილებაში წარმოდგენილი პროექტები საშუალებას აძლევს დამთვალიერებელს გაეცნოს როგორც დასრულებულ კომპოზიციებს, ისე მათი შექმნის ისტორიულ და მხატვრულ საფუძვლებს."
+      ]
+    },
+    "en": {
+      "eyebrow": "Works",
+      "title": "Selected Works and Projects",
+      "intro": [
+        "George Klapsa Gogolashvili's documented practice encompasses monumental painting, sacred imagery, architectural decoration, and work involving historical artistic techniques.",
+        "This collection introduces selected projects through their visual composition, architectural setting, and relationship to Georgian artistic heritage."
+      ]
+    }
+  },
+  "approach": {
+    "seo": {
+      "ka": {
+        "title": "შემოქმედებითი მიდგომა — გია გოგოლაშვილი",
+        "description": "გია გოგოლაშვილის მხატვრული მიდგომა: ისტორიული წყაროები, კედელზე მუშაობა, ფერი, იკონოგრაფია და არქიტექტურა."
+      },
+      "en": {
+        "title": "Artistic Approach — George Klapsa Gogolashvili",
+        "description": "How George Klapsa Gogolashvili approaches monumental painting: historical sources, drawing, color, iconography, and architecture."
+      }
+    },
+    "ka": {
+      "eyebrow": "შემოქმედებითი მიდგომა",
+      "title": "ტრადიციის გააზრება, შემოქმედებითი ძიება და სივრცე",
+      "intro": [
+        "გია გოგოლაშვილის მხატვრული მიდგომა ეფუძნება მონუმენტური ფერწერის, არქიტექტურული სივრცისა და ისტორიული მხატვრობის ურთიერთკავშირის გააზრებას.",
+        "მისთვის კედლის მხატვრობა მხოლოდ გამოსახულების შექმნა არ არის. იგი სივრცის მხატვრული მთლიანობის ნაწილია, რომლის კომპოზიციური გადაწყვეტა დამოკიდებულია არქიტექტურაზე, სინათლეზე, მასშტაბსა და გამოსახულების დანიშნულებაზე."
+      ],
+      "sections": [
+        {
+          "heading": "ისტორიული წყაროები",
+          "paragraphs": [
+            "მხატვარი განსაკუთრებულ ინტერესს იჩენს ქართული შუა საუკუნეების მონუმენტური ფერწერის მიმართ. მისი საეკლესიო კომპოზიციების შემუშავებისას მნიშვნელოვან მხატვრულ ორიენტირებად იქცა უბისისა და გელათის მონასტრების მხატვრული მემკვიდრეობა."
+          ]
+        },
+        {
+          "heading": "უშუალო მუშაობა კედელზე",
+          "paragraphs": [
+            "მისი პრაქტიკის ერთ-ერთი დამახასიათებელი თავისებურებაა წინასწარ შექმნილი ნახაზის ტრადიციული მეთოდით გადატანა კედელზე. მხატვარი განსაკუთრებულ მნიშვნელობას ანიჭებს ხელით შესრულებულ ხაზს, კომპოზიციის პროპორციებსა და სამუშაო პროცესის თანმიმდევრობას."
+          ],
+          "image": "img-nat-drawing"
+        },
+        {
+          "heading": "ფერი და იკონოგრაფია",
+          "paragraphs": [
+            "საეკლესიო მხატვრობაში ფერი, გამომეტყველება და ფიგურათა ურთიერთმიმართება მხოლოდ დეკორატიულ ამოცანას არ ემსახურება. ისინი მონაწილეობენ გამოსახულების სიმბოლური შინაარსის შექმნაში."
+          ],
+          "image": "img-pigments"
+        },
+        {
+          "heading": "მხატვრობა და არქიტექტურა",
+          "paragraphs": [
+            "თეატრალურ და არქიტექტურულ პროექტებში დაგროვილი გამოცდილება გია გოგოლაშვილს საშუალებას აძლევს, მონუმენტური ნამუშევარი განიხილოს არა როგორც იზოლირებული სურათი, არამედ როგორც გარემოს განუყოფელი ნაწილი."
+          ]
+        }
+      ]
+    },
+    "en": {
+      "eyebrow": "Artistic Approach",
+      "title": "Tradition, Technique, and Spatial Imagination",
+      "intro": [
+        "For George Klapsa Gogolashvili, monumental painting is inseparable from the architecture that surrounds it.",
+        "Rather than approaching the wall as a neutral surface, his practice considers the scale, proportions, light, and symbolic purpose of an interior.",
+        "His artistic method is shaped by a continuing engagement with Georgian medieval painting and the techniques of historical muralists."
+      ],
+      "sections": [
+        {
+          "heading": "Historical Sources",
+          "paragraphs": [
+            "The monumental painting traditions of Georgia, particularly those associated with Ubisi and Gelati, have served as important references in Gogolashvili's ecclesiastical work.",
+            "These sources inform his research into composition, iconographic structure, and the visual language of sacred art."
+          ]
+        },
+        {
+          "heading": "Direct Work on the Wall",
+          "paragraphs": [
+            "Gogolashvili has described a working process that places particular emphasis on preparatory studies and the direct transfer of designs onto architectural surfaces.",
+            "Hand-drawn lines, proportional relationships, and careful compositional planning are central to this approach."
+          ],
+          "image": "img-nat-drawing"
+        },
+        {
+          "heading": "Color and Iconography",
+          "paragraphs": [
+            "Within sacred painting, color and expression carry significance beyond their decorative function. Gogolashvili approaches these elements as part of a wider visual and symbolic language."
+          ],
+          "image": "img-pigments"
+        },
+        {
+          "heading": "Painting and Architecture",
+          "paragraphs": [
+            "His experience with theatrical and architectural decoration informs an understanding of monumental art as an integral element of its environment.",
+            "The resulting approach places artistic composition in dialogue with structure, scale, and architectural purpose."
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "seo": {
+      "ka": {
+        "title": "კონტაქტი — გია გოგოლაშვილი",
+        "description": "გია გოგოლაშვილის შემოქმედებისა და მონუმენტური მხატვრობის პროექტებზე პროფესიული კომუნიკაცია."
+      },
+      "en": {
+        "title": "Contact George Klapsa Gogolashvili",
+        "description": "Professional inquiries concerning the artistic practice and monumental painting projects of George Klapsa Gogolashvili."
+      }
+    },
+    "ka": {
+      "eyebrow": "კონტაქტი",
+      "title": "შემოქმედებითი თანამშრომლობა",
+      "intro": [
+        "გია გოგოლაშვილის შემოქმედების, მონუმენტური მხატვრობის პროექტებისა და პროფესიული თანამშრომლობის საკითხებზე კომუნიკაციისთვის განკუთვნილია საკონტაქტო ფორმა."
+      ]
+    },
+    "en": {
+      "eyebrow": "Contact",
+      "title": "Professional Inquiries",
+      "intro": [
+        "For inquiries concerning George Klapsa Gogolashvili's artistic practice, monumental painting projects, or potential professional collaborations, the contact form is the intended route."
+      ]
+    }
+  },
+  "timeline": {
+    "note": {
+      "ka": "2011–2012 აღნიშნავს წყაროთი დაფიქსირებულ სამუშაო პერიოდს და არა ოფიციალურად დადგენილ დასრულების თარიღს.",
+      "en": "The years 2011–2012 record a documented period of work, not an officially established completion date."
+    },
+    "entries": [
+      {
+        "year": "1993",
+        "ka": "ამერიკის შეერთებულ შტატებში გადასვლა",
+        "en": "Relocation to the United States"
+      },
+      {
+        "year": "2009",
+        "ka": "მანჰეტენის მართლმადიდებლურ ტაძართან ურთიერთობის დასაწყისი",
+        "en": "Beginning of his association with the Manhattan cathedral"
+      },
+      {
+        "year": "2011",
+        "ka": "ისტორიული ხატის აღდგენითი სამუშაოს დასრულება",
+        "en": "Completion of a historical icon restoration"
+      },
+      {
+        "year": "2011–2012",
+        "ka": "„საიდუმლო სერობის“ კომპოზიციაზე მუშაობის დოკუმენტირებული პერიოდი",
+        "en": "Documented period of work on The Mystical Supper"
+      },
+      {
+        "year": "2018",
+        "ka": "„სარკის“ ინტერვიუში საკურთხევლის მოხატულობა დასრულებულად არის მოხსენიებული",
+        "en": "The sanctuary paintings are described as completed, in the Sarke interview"
+      },
+      {
+        "year": "2019",
+        "ka": "აღიარების სიგელი მთავარანგელოზთა დასის მოხატულობის შექმნისა და დამონტაჟებისთვის, 13 ოქტომბერი",
+        "en": "Certificate of recognition for the creation and installation of the archangel murals, October 13"
+      },
+      {
+        "year": "2022",
+        "ka": "ვრცელი ინტერვიუ ჟურნალ „სარკეში“, 24 ნოემბერი",
+        "en": "Extended interview published by Sarke, November 24"
+      },
+      {
+        "year": "2023",
+        "ka": "საქართველოს პირველი არხის სიუჟეტი „ჩემი ამბავი“, 20 თებერვალი",
+        "en": "Featured in Georgian Public Broadcaster's My Story series, February 20"
+      }
+    ]
+  },
+  "press": [
+    {
+      "year": "2022",
+      "url": "https://sarkenews.ge/2022/11/gia-gogolashvili-episkoposma-mithkhra-ghvthis-sakhlshi-ghmerths-thavisive-dzegli-daudgi-man-ki-bitchi-gachuqa-es-sastsauli-ariso/",
+      "ka": { "outlet": "სარკე", "title": "ინტერვიუ, 24 ნოემბერი, 2022" },
+      "en": { "outlet": "Sarke", "title": "Interview, 24 November 2022" }
+    },
+    {
+      "year": "2023",
+      "url": "https://1tv.ge/video/emigranti-mkhatvari-romelmac-manhetenze-mdebare-katedrali-qartuli-freskebit-mokhata-gia-gogolashvili-rubrikashi-chemi-ambavi/",
+      "youtube": "PeQ1HWlk9DM",
+      "ka": { "outlet": "საქართველოს პირველი არხი", "title": "„ჩემი ამბავი“, 20 თებერვალი, 2023" },
+      "en": { "outlet": "Georgian Public Broadcaster", "title": "My Story, 20 February 2023" }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RoSmUKOQtDw&t=127s",
+      "youtube": "RoSmUKOQtDw",
+      "start": 127,
+      "ka": { "outlet": "უეჩველი ქართველია", "title": "აღმოჩენილი დიდოსტატი" },
+      "en": { "outlet": "Uechveli Kartvelia", "title": "A Discovered Grand Master" }
+    }
+  ],
+  "sources": {
+    "ka": [
+      "ჟურნალი „სარკე“, ინტერვიუ, 2022",
+      "საქართველოს პირველი არხი, „ჩემი ამბავი“, 2023",
+      "უეჩველი ქართველია, „აღმოჩენილი დიდოსტატი“",
+      "Cathedral of the Holy Virgin Protection — ტაძრის ისტორია, შენობის თარიღი 1891",
+      "ამერიკის მართლმადიდებელი ეკლესიის აღიარების სიგელი, 13 ოქტომბერი, 2019"
+    ],
+    "en": [
+      "Sarke magazine, interview, 2022",
+      "Georgian Public Broadcaster, My Story, 2023",
+      "Uechveli Kartvelia, A Discovered Grand Master",
+      "Cathedral of the Holy Virgin Protection — building history, constructed in 1891",
+      "Orthodox Church in America certificate of recognition, October 13, 2019"
+    ]
+  }
+}

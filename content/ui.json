@@ -1,0 +1,47 @@
+{
+  "skip": { "ka": "შინაარსზე გადასვლა", "en": "Skip to content" },
+  "menu": { "ka": "მენიუ", "en": "Menu" },
+  "closeMenu": { "ka": "დახურვა", "en": "Close" },
+  "close": { "ka": "დახურვა", "en": "Close" },
+  "prev": { "ka": "წინა სურათი", "en": "Previous image" },
+  "next": { "ka": "შემდეგი სურათი", "en": "Next image" },
+  "enlarge": { "ka": "სურათის გადიდება", "en": "Enlarge image" },
+  "dialog": { "ka": "გალერეა", "en": "Gallery" },
+  "viewWork": { "ka": "ნამუშევრის გახსნა", "en": "View the work" },
+  "allWorks": { "ka": "ყველა ნამუშევარი", "en": "All works" },
+  "related": { "ka": "დაკავშირებული ნამუშევრები", "en": "Related works" },
+  "location": { "ka": "მდებარეობა", "en": "Location" },
+  "discipline": { "ka": "მიმართულება", "en": "Discipline" },
+  "dates": { "ka": "წლები", "en": "Dates" },
+  "explore": { "ka": "ნამუშევრების დათვალიერება", "en": "Explore the Works" },
+  "about": { "ka": "ხელოვანის შესახებ", "en": "About the Artist" },
+  "contactCta": { "ka": "დაკავშირება", "en": "Contact" },
+  "phone": { "ka": "ტელეფონი", "en": "Telephone" },
+  "language": { "ka": "ენა", "en": "Language" },
+  "newTab": { "ka": "ახალ ჩანართში იხსნება", "en": "opens in a new tab" },
+  "sources": { "ka": "წყაროები", "en": "Sources" },
+  "timeline": { "ka": "შემოქმედებითი ქრონოლოგია", "en": "Timeline" },
+  "press": { "ka": "პრესა და მედია", "en": "Press and media" },
+  "selectedLabel": { "ka": "შერჩეული ნამუშევრები", "en": "Selected works" },
+  "practiceLabel": { "ka": "შემოქმედებითი მიმართულებები", "en": "Areas of practice" },
+  "featuredLabel": { "ka": "გამორჩეული პროექტი", "en": "Featured project" },
+  "portraitLabel": { "ka": "პორტრეტი", "en": "Portrait" },
+  "nav": [
+    { "slug": "", "ka": "მთავარი", "en": "Home" },
+    { "slug": "about", "ka": "ხელოვანის შესახებ", "en": "The Artist" },
+    { "slug": "works", "ka": "ნამუშევრები", "en": "Works" },
+    { "slug": "approach", "ka": "შემოქმედებითი მიდგომა", "en": "Approach" },
+    { "slug": "contact", "ka": "კონტაქტი", "en": "Contact" }
+  ],
+  "form": {
+    "name": { "ka": "სახელი", "en": "Name" },
+    "email": { "ka": "ელფოსტა", "en": "Email address" },
+    "subject": { "ka": "შეტყობინების თემა", "en": "Subject" },
+    "message": { "ka": "შეტყობინება", "en": "Message" },
+    "submit": { "ka": "შეტყობინების გაგზავნა", "en": "Send Message" },
+    "note": {
+      "ka": "საკონტაქტო ფორმა მომზადებულია. შეტყობინებების მიღება დაიწყება მას შემდეგ, რაც დადასტურდება ოფიციალური მიმღები მისამართი.",
+      "en": "The inquiry form is prepared. Messages will be accepted once an official recipient address has been confirmed."
+    }
+  }
+}

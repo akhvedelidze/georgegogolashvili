@@ -1,0 +1,196 @@
+[
+  {
+    "id": "cathedral",
+    "title": {
+      "ka": "ღვთისმშობლის საფარველის საკათედრო ტაძარი",
+      "en": "Cathedral of the Holy Virgin Protection"
+    },
+    "location": {
+      "ka": "59 East 2nd Street, მანჰეტენი, ნიუ-იორკი",
+      "en": "59 East 2nd Street, Manhattan, New York"
+    },
+    "discipline": {
+      "ka": "საეკლესიო მონუმენტური მხატვრობა",
+      "en": "Sacred monumental painting"
+    },
+    "dates": { "ka": "", "en": "" },
+    "images": ["img-arch-installed"],
+    "related": ["mystical-supper", "archangels"],
+    "seo": {
+      "ka": {
+        "title": "ღვთისმშობლის საფარველის საკათედრო ტაძარი — გია გოგოლაშვილი",
+        "description": "გია გოგოლაშვილის მონუმენტური მხატვრობა მანჰეტენის ღვთისმშობლის საფარველის საკათედრო ტაძარში."
+      },
+      "en": {
+        "title": "Cathedral of the Holy Virgin Protection — Gogolashvili",
+        "description": "Monumental paintings by George Klapsa Gogolashvili at the Cathedral of the Holy Virgin Protection in Manhattan."
+      }
+    },
+    "paragraphs": {
+      "ka": [
+        "მანჰეტენის ღვთისმშობლის საფარველის საკათედრო ტაძარში შესრულებული ნამუშევრები გია გოგოლაშვილის მნიშვნელოვანი შემოქმედებითი პროექტია.",
+        "ისტორიული ტაძრის ინტერიერში მხატვარმა იმუშავა ქრისტიანული იკონოგრაფიის თემებზე, ქართული შუა საუკუნეების ფრესკული მემკვიდრეობის გათვალისწინებით. პროექტის არსებითი თავისებურებაა მხატვრული ტრადიციის დაკავშირება განსხვავებულ არქიტექტურულ და კულტურულ გარემოსთან.",
+        "ტაძრის შენობა 1891 წელს აშენდა. იგი მანჰეტენზე, აღმოსავლეთ მეორე ქუჩაზე, ნომერ 59-ში დგას.",
+        "ტაძრის მოხატულობაში განსაკუთრებული ადგილი უკავია „საიდუმლო სერობასა“ და მთავარანგელოზთა კომპოზიციებს."
+      ],
+      "en": [
+        "The paintings created for the Cathedral of the Holy Virgin Protection represent a significant chapter in Gogolashvili's artistic career.",
+        "Within the historic architectural setting of the cathedral, he developed monumental compositions informed by Christian iconography and the traditions of medieval Georgian painting.",
+        "The cathedral building was constructed in 1891. It stands at 59 East 2nd Street in Manhattan.",
+        "The project is distinguished by its dialogue between historical artistic sources and the architecture of an American Orthodox cathedral.",
+        "Among its principal documented works are The Mystical Supper and the sanctuary paintings depicting archangels and angelic hosts."
+      ]
+    }
+  },
+  {
+    "id": "mystical-supper",
+    "title": { "ka": "საიდუმლო სერობა", "en": "The Mystical Supper" },
+    "location": {
+      "ka": "ღვთისმშობლის საფარველის საკათედრო ტაძარი, ნიუ-იორკი",
+      "en": "Cathedral of the Holy Virgin Protection, New York"
+    },
+    "discipline": {
+      "ka": "საეკლესიო კედლის მხატვრობა",
+      "en": "Ecclesiastical wall painting"
+    },
+    "dates": { "ka": "2011–2012, სამუშაო პერიოდი", "en": "2011–2012, documented working period" },
+    "images": ["img-supper-full", "img-supper-detail"],
+    "related": ["cathedral", "archangels"],
+    "seo": {
+      "ka": {
+        "title": "საიდუმლო სერობა — გია გოგოლაშვილი",
+        "description": "გია გოგოლაშვილის „საიდუმლო სერობა“ მანჰეტენის საკათედრო ტაძარში, უბისის ფრესკული მემკვიდრეობის გათვალისწინებით."
+      },
+      "en": {
+        "title": "The Mystical Supper — George Klapsa Gogolashvili",
+        "description": "The Mystical Supper, a monumental sacred composition by George Klapsa Gogolashvili at a historic Manhattan cathedral."
+      }
+    },
+    "paragraphs": {
+      "ka": [
+        "„საიდუმლო სერობა“ გია გოგოლაშვილის მონუმენტური საეკლესიო მხატვრობის ერთ-ერთი მნიშვნელოვანი ნიმუშია.",
+        "კომპოზიციის მომზადებისას მხატვარმა შეისწავლა ქართული შუა საუკუნეების ფრესკული მემკვიდრეობა, განსაკუთრებით XIV საუკუნის მხატვარ დამიანესთან დაკავშირებული უბისის მონასტრის მოხატულობა.",
+        "მხატვრის მონათხრობის მიხედვით, მან წინასწარ დაამუშავა კომპოზიციის ნახაზი და ფერთა გადაწყვეტა, ხოლო შემდეგ გამოსახულება ტრადიციული მეთოდით, ნახშირის გამოყენებით, უშუალოდ კედელზე გადაიტანა.",
+        "ნამუშევარი აჩვენებს, როგორ შეიძლება ისტორიული იკონოგრაფიული გამოცდილების შემოქმედებითად გააზრება ახალ სივრცეში, ისე, რომ შენარჩუნდეს მისი კულტურული და სულიერი შინაარსი.",
+        "მხატვრის განცხადებით, კომპოზიცია ტაძარს საჩუქრად გადასცა.",
+        "2011–2012 წლები ამ კომპოზიციაზე მუშაობის დოკუმენტირებულ პერიოდს აღნიშნავს და არა ოფიციალურად დადგენილ დასრულების თარიღს. აქ წარმოდგენილი ფოტოები კომპოზიციის დაბეჭდილ გამოსახულებას ასახავს."
+      ],
+      "en": [
+        "The Mystical Supper is one of the central works in George Klapsa Gogolashvili's documented practice of monumental sacred painting.",
+        "During the development of the composition, the artist studied Georgian medieval fresco painting, focusing particularly on works associated with the fourteenth-century painter Damiane at Ubisi Monastery.",
+        "According to Gogolashvili's account, the work involved preparatory compositional studies followed by a traditional method of transferring the design directly onto the wall using charcoal.",
+        "The resulting project demonstrates an approach in which historical iconographic references are interpreted for a new architectural setting, rather than treated merely as decorative motifs.",
+        "The artist has stated that he donated the completed work to the cathedral.",
+        "The years 2011–2012 record a documented period of work on this composition, not an officially established completion date. The photographs shown here record printed images of the composition."
+      ]
+    }
+  },
+  {
+    "id": "archangels",
+    "title": {
+      "ka": "მთავარანგელოზები და ანგელოზთა დასი",
+      "en": "Archangels and the Angelic Hosts"
+    },
+    "location": {
+      "ka": "ღვთისმშობლის საფარველის საკათედრო ტაძარი, ნიუ-იორკი",
+      "en": "Cathedral of the Holy Virgin Protection, New York"
+    },
+    "discipline": {
+      "ka": "საეკლესიო მონუმენტური მხატვრობა",
+      "en": "Sacred monumental painting"
+    },
+    "dates": { "ka": "2018 / 2019", "en": "2018 / 2019" },
+    "images": ["img-arch-installed", "img-arch-staff", "img-arch-blue", "img-certificate"],
+    "related": ["cathedral", "mystical-supper"],
+    "seo": {
+      "ka": {
+        "title": "მთავარანგელოზები — გია გოგოლაშვილი",
+        "description": "საკურთხევლის მთავარანგელოზთა და ანგელოზთა დასის მოხატულობა, გია გოგოლაშვილი, ნიუ-იორკი."
+      },
+      "en": {
+        "title": "Archangels and the Angelic Hosts — Gogolashvili",
+        "description": "Sanctuary paintings of archangels and angelic hosts by George Klapsa Gogolashvili at the Cathedral of the Holy Virgin Protection."
+      }
+    },
+    "paragraphs": {
+      "ka": [
+        "საკურთხევლის სივრცეში შესრულებული მთავარანგელოზთა და ანგელოზთა დასის კომპოზიციები გია გოგოლაშვილის საეკლესიო მხატვრობის მნიშვნელოვან ნაწილს წარმოადგენს.",
+        "მხატვრის ცნობით, ამ ნამუშევრებზე მუშაობისას იგი ეყრდნობოდა გელათის მონასტრის ფრესკულ ტრადიციას.",
+        "კომპოზიციებში განსაკუთრებული მნიშვნელობა ენიჭება ანგელოზთა გამოსახულებების ურთიერთგანლაგებას, ფერთა შეთანხმებასა და მთლიანად საკურთხევლის სივრცესთან მხატვრულ კავშირს.",
+        "2022 წლის ინტერვიუში ეს მოხატულობა 2018 წელს დასრულებულად არის მოხსენიებული.",
+        "2019 წლის 13 ოქტომბერს გია გოგოლაშვილს გადაეცა ამერიკის მართლმადიდებელი ეკლესიის აღიარების სიგელი — მთავარანგელოზთა დასის მოხატულობის შექმნისა და დამონტაჟებისთვის ღვთისმშობლის საფარველის საკათედრო ტაძარში. სიგელს ხელს აწერს წინამძღვარი, არქიმანდრიტი კრისტოფერი."
+      ],
+      "en": [
+        "The sanctuary paintings depicting archangels and angelic hosts form an important component of Gogolashvili's work at the Cathedral of the Holy Virgin Protection.",
+        "The artist has identified the fresco tradition of Gelati Monastery as a significant source of inspiration for these compositions.",
+        "The paintings engage with the visual language of Orthodox iconography while responding to the spatial and liturgical character of the sanctuary.",
+        "In a 2022 interview, Gogolashvili described the sanctuary paintings as completed in 2018.",
+        "On October 13, 2019, he received an Orthodox Church in America certificate of recognition for the creation and installation of the murals of the Holy Choir of Archangels at the Cathedral of the Holy Virgin Protection. The certificate is signed by Archimandrite Christopher, Rector."
+      ]
+    }
+  },
+  {
+    "id": "ascension",
+    "title": { "ka": "ამაღლება", "en": "The Ascension" },
+    "location": { "ka": "", "en": "" },
+    "discipline": {
+      "ka": "მონუმენტური საეკლესიო კომპოზიცია",
+      "en": "Monumental sacred composition"
+    },
+    "dates": { "ka": "", "en": "" },
+    "images": ["img-asc-upper", "img-asc-wide", "img-asc-virgin", "img-asc-apostles", "img-asc-group"],
+    "related": ["nativity"],
+    "seo": {
+      "ka": {
+        "title": "ამაღლება — გია გოგოლაშვილი",
+        "description": "გია გოგოლაშვილის მონუმენტური კომპოზიცია „ამაღლება“: ღვთისმშობელი, მოციქულები და ამაღლებული ქრისტე."
+      },
+      "en": {
+        "title": "The Ascension — George Klapsa Gogolashvili",
+        "description": "The Ascension, a monumental composition by George Klapsa Gogolashvili, with the Virgin, the apostles, and the ascending Christ."
+      }
+    },
+    "paragraphs": {
+      "ka": [
+        "„ამაღლება“ გია გოგოლაშვილის მონუმენტური კომპოზიციაა ქრისტეს ამაღლების თემაზე. ღვთისმშობელი ცენტრში დგას, მოციქულები ზეცისკენ არიან მიმართული, ზედა ნაწილში კი ამაღლებული ქრისტე ჩანს.",
+        "ფოტოები კომპოზიციის წყობასა და ფიგურათა დამუშავებას ასახავს. ზოგ კადრში ქვედა არე ჯერ დაუმუშავებელია. ნამუშევრის საბოლოო განთავსება და დასრულების თარიღი მოწოდებულ მასალებში დადასტურებული არ არის."
+      ],
+      "en": [
+        "The Ascension is a monumental composition by George Klapsa Gogolashvili on the ascent of Christ. The Virgin stands at the center, the apostles look upward, and the ascending Christ appears above them.",
+        "The photographs record the structure of the composition and the handling of the figures. In some frames the lower ground is still unfinished. The final architectural setting and completion date are not established in the materials supplied for this site."
+      ]
+    }
+  },
+  {
+    "id": "nativity",
+    "title": { "ka": "შობა", "en": "The Nativity" },
+    "location": { "ka": "", "en": "" },
+    "discipline": {
+      "ka": "მონუმენტური საეკლესიო კომპოზიცია",
+      "en": "Monumental sacred composition"
+    },
+    "dates": { "ka": "", "en": "" },
+    "images": ["img-nat-wall", "img-nat-drawing"],
+    "related": ["ascension"],
+    "seo": {
+      "ka": {
+        "title": "შობა — გია გოგოლაშვილი",
+        "description": "გია გოგოლაშვილის „შობის“ კომპოზიცია მუშაობის პროცესში და მოსამზადებელი ნახაზი."
+      },
+      "en": {
+        "title": "The Nativity — George Klapsa Gogolashvili",
+        "description": "The Nativity, a monumental composition by George Klapsa Gogolashvili, shown with a preparatory drawing."
+      }
+    },
+    "paragraphs": {
+      "ka": [
+        "„შობა“ გია გოგოლაშვილის მონუმენტური კომპოზიციაა. ფოტოზე ჩანს ღვთისმშობელი, ყრმა, მწყემსი და ანგელოზი, ხოლო კედლის მეზობელ ნაწილზე ჯერ მხოლოდ კონტურია.",
+        "ცალკე დაცულია მოსამზადებელი ნახაზიც. დასრულების თარიღი და საბოლოო განთავსება მოწოდებულ მასალებში დაზუსტებული არ არის."
+      ],
+      "en": [
+        "The Nativity is a monumental composition by George Klapsa Gogolashvili. The photograph shows the Virgin, the child, a shepherd, and an angel, while the adjoining wall still carries only an outline.",
+        "A preparatory drawing is also preserved. The completion date and final setting are not established in the materials supplied for this site."
+      ]
+    }
+  }
+]
