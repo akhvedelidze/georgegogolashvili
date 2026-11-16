@@ -29,11 +29,23 @@ const esc = (value) =>
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
 
-const hrefPath = (lang, slug = "") => (slug ? `/${lang}/${slug}/` : `/${lang}/`);
+const BASE_PATH = "/georgegogolashvili";
+
+function sitePath(urlPath = "/") {
+  if (/^(?:[a-z][a-z0-9+.-]*:|\/\/)/i.test(urlPath)) return urlPath;
+  const normalized = urlPath.startsWith("/") ? urlPath : `/${urlPath}`;
+  if (normalized === BASE_PATH || normalized.startsWith(`${BASE_PATH}/`)) return normalized;
+  return normalized === "/" ? `${BASE_PATH}/` : `${BASE_PATH}${normalized}`;
+}
+
+const hrefPath = (lang, slug = "") => sitePath(slug ? `/${lang}/${slug}/` : `/${lang}/`);
 
 const absolute = (urlPath) => {
-  if (!site.siteUrl) return urlPath;
-  return `${site.siteUrl.replace(/\/$/, "")}${urlPath}`;
+  const path = sitePath(urlPath);
+  const configured = (site.siteUrl || "").replace(/\/$/, "");
+  if (!configured) return path;
+  if (configured.endsWith(BASE_PATH)) return `${configured}${path.slice(BASE_PATH.length)}`;
+  return `${configured}${path}`;
 };
 
 const paras = (list = []) => list.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("\n");
@@ -70,12 +82,12 @@ function figure(id, lang, media, { eager = false } = {}) {
   }
   const alt = image.alt[lang] || "";
   const caption = image.caption[lang] || "";
-  const srcset = derived.srcset.map((item) => `${encodeURI(item.src)} ${item.width}w`).join(", ");
+  const srcset = derived.srcset.map((item) => `${sitePath(encodeURI(item.src))} ${item.width}w`).join(", ");
   const label = `${ui.enlarge[lang]}. ${alt}`;
-  return `<figure data-full="${esc(encodeURI(derived.full))}" data-alt="${esc(alt)}" data-caption="${esc(caption)}">
+  return `<figure data-full="${esc(sitePath(encodeURI(derived.full)))}" data-alt="${esc(alt)}" data-caption="${esc(caption)}">
   <div class="frame">
     <button type="button" aria-label="${esc(label)}">
-      <img vite-ignore src="${esc(encodeURI(derived.src))}" srcset="${esc(srcset)}" sizes="(min-width: 900px) 72vw, 100vw" width="${derived.width}" height="${derived.height}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async"${eager ? ' fetchpriority="high"' : ""}>
+      <img vite-ignore src="${esc(sitePath(encodeURI(derived.src)))}" srcset="${esc(srcset)}" sizes="(min-width: 900px) 72vw, 100vw" width="${derived.width}" height="${derived.height}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async"${eager ? ' fetchpriority="high"' : ""}>
     </button>
   </div>
   <figcaption>${esc(caption)}</figcaption>
@@ -168,7 +180,7 @@ function layout({ lang, slug, title, description, body, imagePath, jsonLd }) {
   ${image ? `<meta property="og:image" content="${esc(image)}" vite-ignore>` : ""}
   <meta name="twitter:card" content="${image ? "summary_large_image" : "summary"}">
   <meta name="theme-color" content="#14213D">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="${sitePath("/favicon.svg")}" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="${fonts(lang)}">
@@ -529,7 +541,7 @@ function gatePage() {
   <link rel="alternate" hreflang="en" href="${esc(absolute("/en/"))}" vite-ignore>
   <link rel="alternate" hreflang="x-default" href="${esc(absolute("/"))}" vite-ignore>
   <meta name="theme-color" content="#14213D">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="${sitePath("/favicon.svg")}" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="${fonts("both")}">
@@ -537,7 +549,7 @@ function gatePage() {
   <script>
     try {
       var chosen = localStorage.getItem("gkg-lang");
-      if (chosen === "ka" || chosen === "en") location.replace("/" + chosen + "/");
+      if (chosen === "ka" || chosen === "en") location.replace(${JSON.stringify(sitePath("/"))} + chosen + "/");
     } catch (error) {}
   </script>
 </head>
@@ -549,8 +561,8 @@ function gatePage() {
       <p class="lede" lang="en">George Klapsa Gogolashvili</p>
       <p lang="ka">ქართული მხატვრული ტრადიცია თანამედროვე მონუმენტურ ხელოვნებაში</p>
       <nav class="gate-links" aria-label="Language">
-        <a href="/ka/" lang="ka" hreflang="ka">GE</a>
-        <a href="/en/" lang="en" hreflang="en">EN</a>
+        <a href="${hrefPath("ka")}" lang="ka" hreflang="ka">GE</a>
+        <a href="${hrefPath("en")}" lang="en" hreflang="en">EN</a>
       </nav>
     </div>
   </main>
@@ -626,7 +638,7 @@ ${urls.join("\n")}
 `;
   await mkdir(path.join(root, "public"), { recursive: true });
   await writeFile(path.join(root, "public", "sitemap.xml"), xml, "utf8");
-  const sitemapLine = site.siteUrl ? `Sitemap: ${site.siteUrl.replace(/\/$/, "")}/sitemap.xml\n` : "Sitemap: /sitemap.xml\n";
+  const sitemapLine = `Sitemap: ${absolute("/sitemap.xml")}\n`;
   await writeFile(path.join(root, "public", "robots.txt"), `User-agent: *\nAllow: /\n\n${sitemapLine}`, "utf8");
 }
 
