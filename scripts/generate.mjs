@@ -92,7 +92,7 @@ function figure(id, lang, media, { eager = false, sizes = "(min-width: 900px) 72
 
 function header(lang, slug) {
   const home = hrefPath(lang);
-  const name = lang === "ka" ? "გია გოგოლაშვილი" : "George Klapsa Gogolashvili";
+  const name = lang === "ka" ? "გია გოგოლაშვილი" : "George (Klapsa) Gogolashvili";
   const links = ui.nav
     .map((item) => {
       const current = item.slug === slug ? ' aria-current="page"' : "";
@@ -124,7 +124,7 @@ function directContact(lang) {
 }
 
 function footer(lang) {
-  const name = lang === "ka" ? "გია გოგოლაშვილი" : "George Klapsa Gogolashvili";
+  const name = lang === "ka" ? "გია გოგოლაშვილი" : "George (Klapsa) Gogolashvili";
   const role = lang === "ka" ? "მხატვარი-მონუმენტალისტი" : "Monumental Artist";
   return `<footer class="site-footer">
   <div class="wrap">
@@ -227,7 +227,7 @@ function homePage(lang, media) {
   const person = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "George Klapsa Gogolashvili",
+    name: "George (Klapsa) Gogolashvili",
     alternateName: "გია გოგოლაშვილი",
     jobTitle: lang === "ka" ? "მხატვარი-მონუმენტალისტი" : "Monumental Artist",
     nationality: "Georgian",
@@ -465,7 +465,7 @@ function projectPage(project, lang, media) {
     name: project.title.en,
     alternateName: project.title.ka,
     artform: "Monumental painting",
-    artist: { "@type": "Person", name: "George Klapsa Gogolashvili" },
+    artist: { "@type": "Person", name: "George (Klapsa) Gogolashvili" },
   };
   if (project.location.en) artwork.contentLocation = project.location.en;
   const body = `<main id="content" tabindex="-1" data-gallery>
@@ -559,8 +559,8 @@ function gatePage() {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>George Klapsa Gogolashvili</title>
-  <meta name="description" content="George Klapsa Gogolashvili, monumental artist. გია გოგოლაშვილი, მხატვარი-მონუმენტალისტი.">
+  <title>George (Klapsa) Gogolashvili</title>
+  <meta name="description" content="George (Klapsa) Gogolashvili, monumental artist. გია გოგოლაშვილი, მხატვარი-მონუმენტალისტი.">
   <link rel="canonical" href="${esc(absolute("/"))}" vite-ignore>
   <link rel="alternate" hreflang="ka" href="${esc(absolute("/ka/"))}" vite-ignore>
   <link rel="alternate" hreflang="en" href="${esc(absolute("/en/"))}" vite-ignore>
@@ -583,7 +583,7 @@ function gatePage() {
     <div class="gate-inner">
       <p class="eyebrow" lang="en">Monumental Artist</p>
       <h1 lang="ka">გია გოგოლაშვილი</h1>
-      <p class="lede" lang="en">George Klapsa Gogolashvili</p>
+      <p class="lede" lang="en">George (Klapsa) Gogolashvili</p>
       <p lang="ka">ქართული მხატვრული ტრადიცია თანამედროვე მონუმენტურ ხელოვნებაში</p>
       <nav class="gate-links" aria-label="Language">
         <a href="${hrefPath("ka")}" lang="ka" hreflang="ka">GE</a>
