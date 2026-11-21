@@ -67,7 +67,7 @@ function fonts(lang) {
   return "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600&family=Noto+Sans+Georgian:wght@400;500&family=Noto+Sans:wght@400;500&family=Noto+Serif+Georgian:wght@500;600&display=swap";
 }
 
-function figure(id, lang, media, { eager = false } = {}) {
+function figure(id, lang, media, { eager = false, sizes = "(min-width: 900px) 72vw, 100vw", showCaption = true } = {}) {
   const image = imageById.get(id);
   if (!image?.publish) return "";
   const derived = media[image.filename];
@@ -78,14 +78,15 @@ function figure(id, lang, media, { eager = false } = {}) {
   const alt = image.alt[lang] || "";
   const caption = image.caption[lang] || "";
   const srcset = derived.srcset.map((item) => `${sitePath(encodeURI(item.src))} ${item.width}w`).join(", ");
-  const label = `${ui.enlarge[lang]}. ${alt}`;
-  return `<figure data-full="${esc(sitePath(encodeURI(derived.full)))}" data-alt="${esc(alt)}" data-caption="${esc(caption)}">
+  const label = alt ? `${ui.enlarge[lang]}. ${alt}` : ui.enlarge[lang];
+  const visibleCaption = showCaption ? caption : "";
+  const captionHtml = visibleCaption ? `\n  <figcaption>${esc(visibleCaption)}</figcaption>` : "";
+  return `<figure data-full="${esc(sitePath(encodeURI(derived.full)))}" data-alt="${esc(alt)}" data-caption="${esc(visibleCaption)}">
   <div class="frame">
     <button type="button" aria-label="${esc(label)}">
-      <img vite-ignore src="${esc(sitePath(encodeURI(derived.src)))}" srcset="${esc(srcset)}" sizes="(min-width: 900px) 72vw, 100vw" width="${derived.width}" height="${derived.height}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async"${eager ? ' fetchpriority="high"' : ""}>
+      <img vite-ignore src="${esc(sitePath(encodeURI(derived.src)))}" srcset="${esc(srcset)}" sizes="${esc(sizes)}" width="${derived.width}" height="${derived.height}" alt="${esc(alt)}" loading="${eager ? "eager" : "lazy"}" decoding="async"${eager ? ' fetchpriority="high"' : ""}>
     </button>
-  </div>
-  <figcaption>${esc(caption)}</figcaption>
+  </div>${captionHtml}
 </figure>`;
 }
 
@@ -236,6 +237,8 @@ function homePage(lang, media) {
   };
   if (site.siteUrl) person.url = absolute(hrefPath(lang));
 
+  const worksGalleryHref = `${hrefPath(lang, "works")}#works-gallery`;
+  const familyGalleryHref = `${hrefPath(lang, "about")}#family-gallery`;
   const body = `<main id="content" tabindex="-1" data-gallery>
   <section class="hero">
     <div class="wrap hero-copy">
@@ -248,6 +251,7 @@ function homePage(lang, media) {
       <div class="prose">${paras(copy.intro)}</div>
       <div class="actions">
         <a href="${hrefPath(lang, "works")}">${esc(ui.explore[lang])}</a>
+        <a href="${worksGalleryHref}">${esc(ui.worksGalleryLink[lang])}</a>
         <a href="${hrefPath(lang, "about")}">${esc(ui.about[lang])}</a>
         <a href="${hrefPath(lang, "contact")}">${esc(ui.contactCta[lang])}</a>
       </div>
@@ -260,6 +264,7 @@ function homePage(lang, media) {
           <p class="kicker">${esc(ui.selectedLabel[lang])}</p>
           <h2>${esc(copy.featuredHeading)}</h2>
           <p class="narrow">${esc(copy.featuredIntro)}</p>
+          <a class="link-line" href="${worksGalleryHref}">${esc(ui.worksGalleryLink[lang])}</a>
         </div>
         <div class="carousel-controls">
           <button type="button" data-carousel-prev>${esc(ui.prev[lang])}</button>
@@ -279,7 +284,10 @@ function homePage(lang, media) {
         <p class="kicker">${esc(ui.about[lang])}</p>
         <h2>${esc(copy.aboutHeading)}</h2>
         <p>${esc(copy.aboutTeaser)}</p>
-        <a class="link-line" href="${hrefPath(lang, "about")}">${esc(ui.about[lang])}</a>
+        <div class="inline-links">
+          <a class="link-line" href="${hrefPath(lang, "about")}">${esc(ui.about[lang])}</a>
+          <a class="link-line" href="${familyGalleryHref}">${esc(ui.familyLabel[lang])}</a>
+        </div>
       </div>
       ${figure("img-portrait-stair", lang, media)}
     </section>
@@ -341,6 +349,11 @@ function aboutPage(lang, media) {
     })
     .join("");
   const sources = pages.sources[lang].map((item) => `<li>${esc(item)}</li>`).join("");
+  const gallerySizes = "(min-width: 1100px) 32vw, (min-width: 700px) 48vw, 100vw";
+  const gallery = (pages.about.gallery || [])
+    .map((id, index) => figure(id, lang, media, { eager: index < 2, sizes: gallerySizes, showCaption: false }))
+    .filter(Boolean)
+    .join("\n");
   const body = `<main id="content" tabindex="-1" data-gallery>
   <header class="wrap">
     <p class="eyebrow">${esc(copy.eyebrow)}</p>
@@ -351,6 +364,12 @@ function aboutPage(lang, media) {
     <h2>${esc(ui.timeline[lang])}</h2>
     <ol class="timeline">${timeline}</ol>
     <p class="note">${esc(pages.timeline.note[lang])}</p>
+  </section>
+  <section class="section art-gallery-section" id="family-gallery" aria-label="${esc(ui.familyLabel[lang])}">
+    <div class="wrap">
+      <h2>${esc(ui.familyLabel[lang])}</h2>
+    </div>
+    <div class="wrap art-gallery">${gallery}</div>
   </section>
   <section class="section wrap">
     <h2>${esc(ui.press[lang])}</h2>
@@ -389,12 +408,23 @@ function worksPage(lang, media) {
       </article>`;
     })
     .join("\n");
+  const gallerySizes = "(min-width: 1100px) 32vw, (min-width: 700px) 48vw, 100vw";
+  const gallery = (pages.works.gallery || [])
+    .map((id, index) => figure(id, lang, media, { eager: index < 3, sizes: gallerySizes, showCaption: false }))
+    .filter(Boolean)
+    .join("\n");
   const body = `<main id="content" tabindex="-1" data-gallery>
   <header class="wrap narrow">
     <p class="eyebrow">${esc(copy.eyebrow)}</p>
     <h1>${esc(copy.title)}</h1>
     <div class="prose">${paras(copy.intro)}</div>
   </header>
+  <section class="section art-gallery-section" id="works-gallery" aria-label="${esc(ui.galleryLabel[lang])}">
+    <div class="wrap">
+      <h2>${esc(ui.galleryLabel[lang])}</h2>
+    </div>
+    <div class="wrap art-gallery">${gallery}</div>
+  </section>
   <div class="section wrap work-list">${list}</div>
 </main>`;
   return layout({

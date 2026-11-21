@@ -584,6 +584,63 @@ h2 + p {
   }
 }
 
+.inline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.inline-links .link-line {
+  margin-top: 0;
+}
+
+.art-gallery-section {
+  padding-bottom: 0;
+}
+
+.art-gallery-section h2 {
+  margin-bottom: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(0.65rem, 1.2vw, 1rem);
+  align-items: start;
+}
+
+.art-gallery figure,
+.art-gallery .frame,
+.art-gallery .frame button {
+  background: var(--plaster-deep);
+}
+
+.art-gallery .frame button {
+  display: block;
+  width: 100%;
+}
+
+.art-gallery .frame img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  background: var(--plaster-deep);
+}
+
+@media (max-width: 800px) {
+  .art-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .art-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ───────── Selected works carousel ───────── */
 /* JS-ი track-ს transform-ით ამოძრავებს. overflow:clip ჭრის სხვა სლაიდებს და კონტეინერს სქროლვად არ ტოვებს. */
 .selected-works {
@@ -705,12 +762,12 @@ h2 + p {
   font-size: 0.95rem;
   font-weight: 500;
 }
-.selected-works .link-line {
+.selected-works .work-copy .link-line {
   color: #fff;
   border-color: var(--gold);
   margin-top: 1rem;
 }
-.selected-works .link-line:hover { color: var(--gold-light); }
+.selected-works .work-copy .link-line:hover { color: var(--gold-light); }
 
 .carousel-dots {
   display: flex;

@@ -80,7 +80,7 @@
       }
     },
     "ka": {
-      "eyebrow": "ხელოვანის შესახებ",
+      "eyebrow": "ხელოვნის შესახებ",
       "title": "თბილისიდან ნიუ-იორკამდე",
       "sections": [
         {
@@ -143,7 +143,31 @@
           ]
         }
       ]
-    }
+    },
+    "gallery": [
+      "family-child-portrait",
+      "family-child-paint",
+      "family-child-scaffold",
+      "family-painting",
+      "family-presenting",
+      "family-archangels",
+      "family-cap",
+      "family-rabbits",
+      "family-outdoor",
+      "img-nat-wall",
+      "family-priest-artist",
+      "family-priest",
+      "family-group",
+      "family-angels-group",
+      "family-cloaks",
+      "family-cloak-pair",
+      "family-doors",
+      "family-procession",
+      "family-church",
+      "family-evening",
+      "family-campaign",
+      "family-event"
+    ]
   },
   "works": {
     "seo": {
@@ -171,7 +195,33 @@
         "George Klapsa Gogolashvili's documented practice encompasses monumental painting, sacred imagery, architectural decoration, and work involving historical artistic techniques.",
         "This collection introduces selected projects through their visual composition, architectural setting, and relationship to Georgian artistic heritage."
       ]
-    }
+    },
+    "gallery": [
+      "img-gallery-supper-wide",
+      "img-gallery-supper-drapery",
+      "img-asc-wide",
+      "img-arch-installed",
+      "img-supper-full",
+      "img-gallery-copper",
+      "img-nat-drawing",
+      "img-gallery-supper-table",
+      "img-gallery-supper-curtain",
+      "img-gallery-supper-seat",
+      "img-gallery-supper-vessels",
+      "img-gallery-supper-apostles",
+      "img-gallery-supper-christ",
+      "img-supper-detail",
+      "img-gallery-angel-pair",
+      "img-gallery-angel-group",
+      "img-gallery-angel-scaffold",
+      "img-arch-staff",
+      "img-arch-blue",
+      "img-gallery-angel-feet",
+      "img-asc-upper",
+      "img-asc-virgin",
+      "img-asc-apostles",
+      "img-asc-group"
+    ]
   },
   "approach": {
     "seo": {

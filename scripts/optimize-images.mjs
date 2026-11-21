@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { mkdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -19,15 +19,50 @@ async function newer(output, inputMtime) {
   return outputStat.mtimeMs >= inputMtime;
 }
 
-function oriented(input, turn) {
-  const pipeline = sharp(input).rotate();
-  return turn ? pipeline.rotate(turn) : pipeline;
+async function render(input, turn, crop) {
+  let pipeline = sharp(input).rotate();
+  if (turn) pipeline = pipeline.rotate(turn);
+  if (!crop) return pipeline;
+  const buffer = await pipeline.toBuffer();
+  const meta = await sharp(buffer).metadata();
+  const left = Math.max(0, Math.round((crop.left || 0) * meta.width));
+  const top = Math.max(0, Math.round((crop.top || 0) * meta.height));
+  const width = Math.max(1, Math.min(meta.width - left, Math.round((crop.width || 1) * meta.width)));
+  const height = Math.max(1, Math.min(meta.height - top, Math.round((crop.height || 1) * meta.height)));
+  return sharp(buffer).extract({ left, top, width, height });
+}
+
+function walkPhotos(dir, acc = []) {
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) walkPhotos(full, acc);
+    else acc.push(full);
+  }
+  return acc;
+}
+
+const photoFiles = walkPhotos(path.join(root, "photos"));
+
+function findOriginal(image) {
+  if (image.source) {
+    const direct = path.join(root, "photos", image.source);
+    if (existsSync(direct)) return direct;
+  }
+  const atRoot = path.join(root, "photos", image.filename);
+  if (existsSync(atRoot)) return atRoot;
+  const matches = photoFiles.filter((file) => path.basename(file) === image.filename);
+  if (matches.length === 1) return matches[0];
+  if (matches.length > 1) {
+    console.warn(`Multiple originals for ${image.filename}; using ${matches[0]}`);
+    return matches[0];
+  }
+  return null;
 }
 
 for (const image of images) {
   if (!image.publish) continue;
-  const input = path.join(root, "photos", image.filename);
-  if (!existsSync(input)) {
+  const input = findOriginal(image);
+  if (!input) {
     console.warn(`Missing original: ${image.filename}`);
     continue;
   }
@@ -41,11 +76,12 @@ for (const image of images) {
   const file960 = path.join(dir960, image.filename);
   const inputMtime = (await stat(input)).mtimeMs;
   const turn = Number(image.turn) || 0;
-  const stamp = `${Math.floor(inputMtime)}:${turn}`;
-  const stampOk = !turn || stamps[image.filename] === stamp;
+  const crop = image.crop || null;
+  const stamp = `${Math.floor(inputMtime)}:${turn}${crop ? `:${JSON.stringify(crop)}` : ""}`;
+  const stampOk = stamps[image.filename] === stamp;
 
   if (!(stampOk && (await newer(file2000, inputMtime)))) {
-    await oriented(input, turn)
+    await (await render(input, turn, crop))
       .resize({ width: 2000, withoutEnlargement: true })
       .jpeg({ quality: 80, mozjpeg: true })
       .toFile(file2000);
@@ -53,7 +89,7 @@ for (const image of images) {
 
   const meta = await sharp(file2000).metadata();
   if ((meta.width || 0) > 1100 && !(stampOk && (await newer(file960, inputMtime)))) {
-    await oriented(input, turn)
+    await (await render(input, turn, crop))
       .resize({ width: 960, withoutEnlargement: true })
       .jpeg({ quality: 78, mozjpeg: true })
       .toFile(file960);
