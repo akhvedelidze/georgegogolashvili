@@ -33,7 +33,7 @@
     { "slug": "", "ka": "მთავარი", "en": "Home" },
     { "slug": "about", "ka": "ხელოვნის შესახებ", "en": "The Artist" },
     { "slug": "works", "ka": "ნამუშევრები", "en": "Works" },
-    { "slug": "approach", "ka": "შემოქმედებითი მიდგომა", "en": "Approach" },
+    { "slug": "press", "ka": "პრესა და მედია", "en": "Press and media" },
     { "slug": "contact", "ka": "კონტაქტი", "en": "Contact" }
   ],
   "form": {

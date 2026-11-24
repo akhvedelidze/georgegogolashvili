@@ -342,13 +342,6 @@ function aboutPage(lang, media) {
       (entry) => `<li><time datetime="${esc(entry.year.slice(0, 4))}">${esc(entry.year)}</time><span>${esc(entry[lang])}</span></li>`,
     )
     .join("");
-  const press = pages.press
-    .map((item) => {
-      const text = item[lang];
-      return `<li><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(text.outlet)}</strong><br>${esc(text.title)} <span class="sr-only">${esc(ui.newTab[lang])}</span></a></li>`;
-    })
-    .join("");
-  const sources = pages.sources[lang].map((item) => `<li>${esc(item)}</li>`).join("");
   const gallerySizes = "(min-width: 1100px) 32vw, (min-width: 700px) 48vw, 100vw";
   const gallery = (pages.about.gallery || [])
     .map((id, index) => figure(id, lang, media, { eager: index < 2, sizes: gallerySizes, showCaption: false }))
@@ -370,16 +363,6 @@ function aboutPage(lang, media) {
       <h2>${esc(ui.familyLabel[lang])}</h2>
     </div>
     <div class="wrap art-gallery">${gallery}</div>
-  </section>
-  <section class="section wrap">
-    <h2>${esc(ui.press[lang])}</h2>
-    ${pages.press.map((item) => videoFrame(item, lang)).join("\n")}
-    <ul class="press-list">${press}</ul>
-    ${figure("img-certificate", lang, media)}
-  </section>
-  <section class="section wrap">
-    <h2>${esc(ui.sources[lang])}</h2>
-    <ul>${sources}</ul>
   </section>
 </main>`;
   return layout({
@@ -426,6 +409,7 @@ function worksPage(lang, media) {
     <div class="wrap art-gallery">${gallery}</div>
   </section>
   <div class="section wrap work-list">${list}</div>
+  ${approachBlock(lang, media)}
 </main>`;
   return layout({
     lang,
@@ -494,31 +478,76 @@ function projectPage(project, lang, media) {
   });
 }
 
-function approachPage(lang, media) {
+function approachBlock(lang, media) {
   const copy = pages.approach[lang];
-  const seo = pages.approach.seo[lang];
   const sections = copy.sections
     .map((section) => {
       const image = section.image ? figure(section.image, lang, media) : "";
       return `<section class="section stack"><div class="stack-copy"><h2>${esc(section.heading)}</h2><div class="narrow">${paras(section.paragraphs)}</div></div>${image}</section>`;
     })
     .join("\n");
+  return `<section class="section" id="approach">
+  <div class="wrap narrow">
+    <p class="eyebrow">${esc(copy.eyebrow)}</p>
+    <h2>${esc(copy.title)}</h2>
+    <div class="prose">${paras(copy.intro)}</div>
+  </div>
+  <div class="wrap">${sections}</div>
+</section>`;
+}
+
+function pressList(lang) {
+  return pages.press
+    .map((item) => {
+      const text = item[lang];
+      return `<li><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer"><strong>${esc(text.outlet)}</strong><br>${esc(text.title)} <span class="sr-only">${esc(ui.newTab[lang])}</span></a></li>`;
+    })
+    .join("");
+}
+
+function pressPage(lang, media) {
+  const copy = pages.media[lang];
+  const seo = pages.media.seo[lang];
   const body = `<main id="content" tabindex="-1" data-gallery>
   <header class="wrap narrow">
     <p class="eyebrow">${esc(copy.eyebrow)}</p>
     <h1>${esc(copy.title)}</h1>
     <div class="prose">${paras(copy.intro)}</div>
   </header>
-  <div class="wrap">${sections}</div>
+  <section class="section wrap">
+    ${pages.press.map((item) => videoFrame(item, lang)).join("\n")}
+    <ul class="press-list">${pressList(lang)}</ul>
+    ${figure("img-certificate", lang, media)}
+  </section>
+  <section class="section wrap">
+    <h2>${esc(ui.sources[lang])}</h2>
+    <ul>${pages.sources[lang].map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
+  </section>
 </main>`;
   return layout({
     lang,
-    slug: "approach",
+    slug: "press",
     title: seo.title,
     description: seo.description,
     body,
-    imagePath: media[imageById.get("img-nat-drawing")?.filename]?.full,
+    imagePath: media[imageById.get("img-certificate")?.filename]?.full,
   });
+}
+
+function redirectPage(fromLang) {
+  const destination = `${hrefPath(fromLang, "works")}#approach`;
+  return `<!DOCTYPE html>
+<html lang="${fromLang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=${esc(destination)}">
+  <link rel="canonical" href="${esc(absolute(hrefPath(fromLang, "works")))}" vite-ignore>
+  <title>${fromLang === "ka" ? "ნამუშევრები" : "Works"}</title>
+  <script>location.replace(${JSON.stringify(destination)});</script>
+</head>
+<body></body>
+</html>`;
 }
 
 function contactPage(lang) {
@@ -675,7 +704,7 @@ export async function generate() {
   generating = true;
   try {
     const media = mediaIndex();
-    const slugs = ["", "about", "works", "approach", "contact", ...projects.map((project) => `works/${project.id}`)];
+    const slugs = ["", "about", "works", "press", "contact", ...projects.map((project) => `works/${project.id}`)];
     await rm(path.join(root, "ka"), { recursive: true, force: true });
     await rm(path.join(root, "en"), { recursive: true, force: true });
 
@@ -687,8 +716,10 @@ export async function generate() {
       ["en/about/index.html", aboutPage("en", media)],
       ["ka/works/index.html", worksPage("ka", media)],
       ["en/works/index.html", worksPage("en", media)],
-      ["ka/approach/index.html", approachPage("ka", media)],
-      ["en/approach/index.html", approachPage("en", media)],
+      ["ka/press/index.html", pressPage("ka", media)],
+      ["en/press/index.html", pressPage("en", media)],
+      ["ka/approach/index.html", redirectPage("ka")],
+      ["en/approach/index.html", redirectPage("en")],
       ["ka/contact/index.html", contactPage("ka")],
       ["en/contact/index.html", contactPage("en")],
     ];

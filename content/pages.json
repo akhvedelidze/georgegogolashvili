@@ -166,7 +166,17 @@
       "family-church",
       "family-evening",
       "family-campaign",
-      "family-event"
+      "family-event",
+      "family-reception",
+      "family-apron",
+      "family-sofa",
+      "family-habit",
+      "family-habit-child",
+      "family-chest",
+      "family-terrace",
+      "family-cleric-terrace",
+      "family-sculpture",
+      "family-supper-group"
     ]
   },
   "works": {
@@ -220,7 +230,8 @@
       "img-asc-upper",
       "img-asc-virgin",
       "img-asc-apostles",
-      "img-asc-group"
+      "img-asc-group",
+      "img-gallery-ascension"
     ]
   },
   "approach": {
@@ -308,6 +319,34 @@
             "The resulting approach places artistic composition in dialogue with structure, scale, and architectural purpose."
           ]
         }
+      ]
+    }
+  },
+  "media": {
+    "seo": {
+      "ka": {
+        "title": "პრესა და მედია — გია გოგოლაშვილი",
+        "description": "ინტერვიუები, გადაცემები და პუბლიკაციები გია გოგოლაშვილის შემოქმედებასა და ნიუ-იორკში შესრულებულ მოხატულობაზე."
+      },
+      "en": {
+        "title": "Press and Media — George (Klapsa) Gogolashvili",
+        "description": "Interviews, television programs, and publications about George (Klapsa) Gogolashvili and the murals he painted in New York."
+      }
+    },
+    "ka": {
+      "eyebrow": "პრესა და მედია",
+      "title": "ინტერვიუები, გადაცემები და პუბლიკაციები",
+      "intro": [
+        "გია გოგოლაშვილის შემოქმედებაზე და ნიუ-იორკში შესრულებულ მოხატულობაზე საუბარია ქართულ ტელევიზიასა და პრესაში. ამ გვერდზე თავმოყრილია ინტერვიუები, გადაცემები და პუბლიკაციები.",
+        "მათ შორისაა ჟურნალ „სარკის“ ინტერვიუ, საქართველოს პირველი არხის „ჩემი ამბავი“, „უეჭველი ქართველია“, „ახალი 9“ და „შინ მომავლისთვის“. აქვეა ამერიკის მართლმადიდებელი ეკლესიის აღიარების სიგელი მთავარანგელოზთა მოხატულობის შექმნისა და დამონტაჟებისთვის."
+      ]
+    },
+    "en": {
+      "eyebrow": "Press and media",
+      "title": "Interviews, programs, and publications",
+      "intro": [
+        "Georgian television and the press have covered George (Klapsa) Gogolashvili's work and the murals he painted in New York. Interviews, programs, and publications are gathered on this page.",
+        "They include the Sarke interview, Georgian Public Broadcaster's My Story, Uechveli Kartvelia, Akhali 9, and Homecoming for the Future. The certificate of recognition from the Orthodox Church in America, for the creation and installation of the archangel murals, is here as well."
       ]
     }
   },
@@ -405,6 +444,31 @@
       "start": 127,
       "ka": { "outlet": "უეჭველი ქართველია", "title": "აღმოჩენილი დიდოსტატი" },
       "en": { "outlet": "Uechveli Kartvelia", "title": "A Discovered Grand Master" }
+    },
+    {
+      "year": "2013",
+      "url": "https://www.youtube.com/watch?v=BY9X5njjgl0",
+      "youtube": "BY9X5njjgl0",
+      "ka": { "outlet": "ახალი 9", "title": "ფრესკა ნიუ იორკში, 9 აპრილი, 2013" },
+      "en": { "outlet": "Akhali 9", "title": "A Fresco in New York, 9 April 2013" }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Z2tEA0QU8hw",
+      "youtube": "Z2tEA0QU8hw",
+      "ka": { "outlet": "შინ მომავლისთვის", "title": "გია გოგოლაშვილი" },
+      "en": { "outlet": "Homecoming for the Future", "title": "George (Klapsa) Gogolashvili" }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3j4U-fJ6U8A",
+      "youtube": "3j4U-fJ6U8A",
+      "ka": { "outlet": "შინ მომავლისთვის", "title": "გია გოგოლაშვილი 2" },
+      "en": { "outlet": "Homecoming for the Future", "title": "George (Klapsa) Gogolashvili 2" }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ynK75qtKoGs",
+      "youtube": "ynK75qtKoGs",
+      "ka": { "outlet": "შინ მომავლისთვის", "title": "ემიგრანტი ხელოვანები" },
+      "en": { "outlet": "Homecoming for the Future", "title": "Emigrant Artists" }
     }
   ],
   "sources": {
@@ -412,6 +476,10 @@
       "ჟურნალი „სარკე“, ინტერვიუ, 2022",
       "საქართველოს პირველი არხი, „ჩემი ამბავი“, 2023",
       "უეჭველი ქართველია, „აღმოჩენილი დიდოსტატი“",
+      "ახალი 9, „ფრესკა ნიუ იორკში“, 9 აპრილი, 2013",
+      "„შინ მომავლისთვის“, გია გოგოლაშვილი",
+      "„შინ მომავლისთვის“, გია გოგოლაშვილი 2",
+      "„შინ მომავლისთვის“, ემიგრანტი ხელოვანები",
       "Cathedral of the Holy Virgin Protection — ტაძრის ისტორია, შენობის თარიღი 1891",
       "ამერიკის მართლმადიდებელი ეკლესიის აღიარების სიგელი, 13 ოქტომბერი, 2019"
     ],
@@ -419,6 +487,10 @@
       "Sarke magazine, interview, 2022",
       "Georgian Public Broadcaster, My Story, 2023",
       "Uechveli Kartvelia, A Discovered Grand Master",
+      "Akhali 9, A Fresco in New York, 9 April 2013",
+      "Homecoming for the Future, George (Klapsa) Gogolashvili",
+      "Homecoming for the Future, George (Klapsa) Gogolashvili 2",
+      "Homecoming for the Future, Emigrant Artists",
       "Cathedral of the Holy Virgin Protection — building history, constructed in 1891",
       "Orthodox Church in America certificate of recognition, October 13, 2019"
     ]
